@@ -1,1 +1,1 @@
-# groceries-201901
+# groceries-exercise
