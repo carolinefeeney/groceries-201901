@@ -44,7 +44,7 @@ for p in sorted_products:
     #print(p["name"])
     #print_usd = p["price"] # "$4.99"
     print_usd = "${0:.2f}".format(p["price"])
-    print("..." + p["name"] + " (" + str(print_usd) + ")")
+    print(" + " + p["name"] + " (" + str(print_usd) + ")")
 
 
 #
@@ -77,12 +77,6 @@ for d in unique_departments:
     else:
         label = "product"
     print(" + " + d.title() + " ("+ str(matching_products_count) + " " + label + ")")
-
-
-
-
-
-
 
 
 
